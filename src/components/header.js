@@ -20,6 +20,37 @@ const Header = ({ siteTitle }) => (
     >
       {siteTitle}
     </Link>
+
+    <Link
+      to="/"
+      style={{
+        fontSize: `var(--font-sm)`,
+        textDecoration: `none`,
+      }}
+    >
+      Home
+    </Link>
+
+    <Link
+      to="/page-2/"
+      style={{
+        fontSize: `var(--font-sm)`,
+        textDecoration: `none`,
+      }}
+    >
+      Page 2
+    </Link>
+
+    <Link
+      to="/using-typescript/"
+      style={{
+        fontSize: `var(--font-sm)`,
+        textDecoration: `none`,
+      }}
+    >
+      Go to using TypeScript
+    </Link>
+
     <img
       alt="Gatsby logo"
       height={20}
