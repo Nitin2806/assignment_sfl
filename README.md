@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://media.licdn.com/dms/image/C4E0BAQHnMvghaeQMSQ/company-logo_200_200/0/1590963876347?e=2147483647&v=beta&t=xTgjKip8SP-PWJ2o8HC6R65-vZqYq307_QxwJq_iypQ" width="60" />
+    <img alt="SFL" src="https://media.licdn.com/dms/image/C4E0BAQHnMvghaeQMSQ/company-logo_200_200/0/1590963876347?e=2147483647&v=beta&t=xTgjKip8SP-PWJ2o8HC6R65-vZqYq307_QxwJq_iypQ" width="60" />
   </a>
 </p>
 <h1 align="center">
