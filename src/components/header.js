@@ -4,12 +4,17 @@ import { Link } from "gatsby"
 const Header = ({ siteTitle }) => (
   <header
     style={{
+      position: "sticky",
+      top: "0",
+      zIndex: "100",
       margin: `0 auto`,
       padding: `var(--space-4) var(--size-gutter)`,
       display: `flex`,
       alignItems: `center`,
       justifyContent: `space-between`,
       boxShadow: `0 2px 4px rgba(0, 0, 0, 0.1)`,
+      backgroundColor: `#ffffff`,
+      borderBottom: `1px solid #e0e0e0`,
     }}
   >
     <Link
@@ -17,40 +22,51 @@ const Header = ({ siteTitle }) => (
       style={{
         fontSize: `var(--font-sm)`,
         textDecoration: `none`,
+        color: `#333333`,
       }}
     >
       {siteTitle}
     </Link>
 
-    <Link
-      to="/"
+    <div
       style={{
-        fontSize: `var(--font-sm)`,
-        textDecoration: `none`,
+        display: `flex`,
+        gap: `40px`,
       }}
     >
-      Home
-    </Link>
+      <Link
+        to="/"
+        style={{
+          fontSize: `var(--font-sm)`,
+          textDecoration: `none`,
+          color: `#333333`,
+        }}
+      >
+        Home
+      </Link>
 
-    <Link
-      to="/page-2/"
-      style={{
-        fontSize: `var(--font-sm)`,
-        textDecoration: `none`,
-      }}
-    >
-      Page 2
-    </Link>
+      <Link
+        to="/page-2/"
+        style={{
+          fontSize: `var(--font-sm)`,
+          textDecoration: `none`,
+          color: `#333333`,
+        }}
+      >
+        Page 2
+      </Link>
 
-    <Link
-      to="/using-typescript/"
-      style={{
-        fontSize: `var(--font-sm)`,
-        textDecoration: `none`,
-      }}
-    >
-      Go to using TypeScript
-    </Link>
+      <Link
+        to="/using-typescript/"
+        style={{
+          fontSize: `var(--font-sm)`,
+          textDecoration: `none`,
+          color: `#333333`,
+        }}
+      >
+        Go to using TypeScript
+      </Link>
+    </div>
 
     <img
       alt="Gatsby logo"
