@@ -4,8 +4,8 @@ import { Link } from "gatsby"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      position: "sticky", // Make the header sticky
-      top: "0", // Stick to the top of the viewport
+      position: "sticky",
+      top: "0",
       zIndex: "100",
       margin: `0 auto`,
       padding: `var(--space-4) var(--size-gutter)`,
@@ -13,8 +13,8 @@ const Header = ({ siteTitle }) => (
       alignItems: `center`,
       justifyContent: `space-between`,
       boxShadow: `0 2px 4px rgba(0, 0, 0, 0.1)`,
-      backgroundColor: `#ffffff`, // Set background color to white
-      borderBottom: `1px solid #e0e0e0`, // Add a bottom border
+      backgroundColor: `#ffffff`,
+      borderBottom: `1px solid #e0e0e0`,
     }}
   >
     <Link
@@ -22,7 +22,7 @@ const Header = ({ siteTitle }) => (
       style={{
         fontSize: `var(--font-sm)`,
         textDecoration: `none`,
-        color: `#333333`, // Set link color
+        color: `#333333`,
       }}
     >
       {siteTitle}
@@ -31,7 +31,7 @@ const Header = ({ siteTitle }) => (
     <div
       style={{
         display: `flex`,
-        gap: `40px`, // Add some spacing between links
+        gap: `40px`,
       }}
     >
       <Link
@@ -39,7 +39,7 @@ const Header = ({ siteTitle }) => (
         style={{
           fontSize: `var(--font-sm)`,
           textDecoration: `none`,
-          color: `#333333`, // Set link color
+          color: `#333333`,
         }}
       >
         Home
@@ -50,7 +50,7 @@ const Header = ({ siteTitle }) => (
         style={{
           fontSize: `var(--font-sm)`,
           textDecoration: `none`,
-          color: `#333333`, // Set link color
+          color: `#333333`,
         }}
       >
         Page 2
@@ -61,7 +61,7 @@ const Header = ({ siteTitle }) => (
         style={{
           fontSize: `var(--font-sm)`,
           textDecoration: `none`,
-          color: `#333333`, // Set link color
+          color: `#333333`,
         }}
       >
         Go to using TypeScript
