@@ -14,3 +14,10 @@ I have added two links to the nav bar with minimal CSS
 Name: Nitin Mishra
 Contact: +1 5197818342
 Email : mnitin2311@gmail.com
+
+
+## NETFLIFY
+
+<a href="https://dashing-hotteok-7c5a02.netlify.app/" target="_blank">Deployed Version</a>
+
+https://dashing-hotteok-7c5a02.netlify.app/
